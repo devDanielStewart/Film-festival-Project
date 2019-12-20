@@ -1,0 +1,365 @@
+body{
+    padding-top: 70px;
+    background-color: #0B1420; 
+}
+hr{
+	width: 100%;
+}
+
+button {
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+
+/*Links*/
+.nav>li>a:focus, .nav>li>a:hover{
+	text-decoration: underline;
+}
+
+
+.textwgiteh1h2{
+    color: white;
+    text-align: center;
+}
+
+#ratingText{
+	color: white;
+}
+
+a:active {
+    color: blue;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.jumbotron{
+  background-image: url(https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a4263e2e9dec5069aefa89cf238ae2f&auto=format&fit=crop&w=889&q=80);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+
+/*Images*/
+image{
+	width: 250px
+	height 50%
+}
+
+.no-padding{
+  padding-left:0;
+  padding-right:0;
+  width: 100%
+}
+
+/*Media queries for mobile and tablet movies will align vertically when mobile*/
+
+@media screen and (max-width: 400px){
+.pullRight{
+	display: table-row;
+	/*vertical-align: top;*/
+
+}
+
+/*Subscribe button will be hidden when screen size is smaller than 800px*/
+.hidsubscribe{
+	display: none;
+}
+
+}
+/*Fix odd movies */
+@media screen and (max-width: 480px ){
+	.oddMovies{
+		display: table-footer-group;
+	}
+};
+
+/*Movies will keep full width*/
+@media screen and (min-width: 768px){
+	.col-sm-1{
+		width: inherit; 
+	}
+	.mobileCenter{
+		position: center;
+	}
+}
+@media screen and (max-width: 1200px){
+	.col-sm-1{
+		width: inherit; 
+	}
+}
+
+/*Hides email for updates*/
+@media screen and (max-width: 800px){
+.hidsubscribe{
+	display: none;
+}
+}
+
+/*Registration form*/
+@media screen and (max-width: 400px){
+.fixRegform{
+	display: inline-table;
+	border: outset;
+}
+}
+/*Reg form*/
+@media screen and (max-width: 1200px){
+.fixRegform{
+	display: inline-table;
+	border: outset;
+}
+}
+
+
+
+
+
+/*Movies background color and text*/
+.movie1{
+	background-color: #1D3557;
+	color: white;
+}
+.movie2{
+	background-color: #182C48;
+	color: white;
+}
+.movie3{
+	background-color: #101D30;
+	color: white;
+}
+.movie4{
+	background-color: #465975;
+	color: white;
+}
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+
+.movietext{
+	padding: 0% 11%;
+	text-align: center;
+}
+
+.moviePoster{
+	width: 422.324px;
+	height: 563.344px;
+}
+
+.moviePosterBorder{
+    text-align: -webkit-center;
+    color: cornsilk;
+}
+
+.reviewText{
+	color: white;
+	text-align: center;
+}
+.thumbnail{
+	background-color: #0B1420;
+    border: 0px solid #ddd;
+}
+/*News and updates*/
+
+.newsSection{
+	background-color: rgb(230,230,250);
+	color: black;
+}
+
+/*form*/
+ /* Style inputs */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form{
+	background-color:   #1D3557;
+}
+.regisFormColor{
+	background-color: #1D3557;
+}
+.formlabels{
+	color: white;
+}
+
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+} 
+
+
+
+
+/* footer  */
+.footer-margin{
+	
+}
+.full {
+    width: 100%;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #EDEFF1;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;	
+}
